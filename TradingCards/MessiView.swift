@@ -21,24 +21,34 @@ struct DetailView: View {
             }
             VStack(alignment: .leading) {
                 Text("Career Stats")
-                    .font(.title3)
+                    .font(.title2)
                     .bold()
                 HStack {
+                    Spacer()
                 Text("Matches")
-                        
+                    Spacer()
                 Text("Goals")
-                        
+                    Spacer()
                 Text("Assists")
-                        
                     Spacer()
                 }
-                .padding(.leading, 100)
-                .padding(.trailing, 100)
-                Text("Career Highlights")
+                HStack {
                     Spacer()
+                    Text ("525")
+                    Spacer()
+                    Text ("475")
+                    Spacer()
+                    Text ("193")
+                    Spacer()
+                }
+            
+                Text("Career Highlight")
+                    .font(.title3)
+                    .bold()
+                    Spacer()
+                
             }
         }
-    
     }
 }
 
