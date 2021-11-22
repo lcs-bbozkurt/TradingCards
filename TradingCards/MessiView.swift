@@ -9,6 +9,7 @@ import SwiftUI
 
 struct DetailView: View {
     var body: some View {
+        ScrollView {
         VStack {
             ZStack {
             Image ("MESSI")
@@ -41,7 +42,6 @@ struct DetailView: View {
                     Text ("193")
                     Spacer()
                 }
-            
                 Text("Career Highlight")
                     .font(.title3)
                     .bold()
@@ -60,12 +60,11 @@ However, Messi's clinical strike from inside the box with only three minutes rem
 
 """)
                     Spacer()
-                
+                }
             }
         }
     }
 }
-
 struct DetailView_Previews: PreviewProvider {
     static var previews: some View {
         
