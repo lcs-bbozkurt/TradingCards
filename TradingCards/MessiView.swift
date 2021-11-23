@@ -24,6 +24,7 @@ struct DetailView: View {
                 Text("Career Stats")
                     .font(.title2)
                     .bold()
+                    .padding(.leading, 5)
                 HStack {
                     Spacer()
                 Text("Matches")
@@ -45,7 +46,9 @@ struct DetailView: View {
                 Text("Career Highlight")
                     .font(.title3)
                     .bold()
+                    .padding(.leading, 5)
                 Text("His Hat-Trick in the Clasico")
+                    .padding(.leading, 5)
                 Text ("""
 This moment in the 2006-07 is seen by many as when Messi was declassified as an immensely talented star of the future and truly marked his arrival.
 
@@ -59,6 +62,7 @@ However, Messi's clinical strike from inside the box with only three minutes rem
 
 
 """)
+                    .padding(.leading, 5)
                     Spacer()
                 }
             }
