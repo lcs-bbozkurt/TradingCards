@@ -63,12 +63,13 @@ However, Messi's clinical strike from inside the box with only three minutes rem
                 }
             }
         }
+        .navigationTitle("Lionel Messi")
     }
 }
 struct DetailView_Previews: PreviewProvider {
     static var previews: some View {
-        
+        NavigationView {
         DetailView()
-    
+        }
     }
 }
