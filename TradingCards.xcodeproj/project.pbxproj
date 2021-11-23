@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C162DFD4274C71D60027FD52 /* BarcelonaPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C162DFD3274C71D60027FD52 /* BarcelonaPlayer.swift */; };
 		C1FA2EEB274C27D2004FCE39 /* TradingCardsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1FA2EEA274C27D2004FCE39 /* TradingCardsApp.swift */; };
 		C1FA2EED274C27D2004FCE39 /* MessiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1FA2EEC274C27D2004FCE39 /* MessiView.swift */; };
 		C1FA2EEF274C27D4004FCE39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1FA2EEE274C27D4004FCE39 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C162DFD3274C71D60027FD52 /* BarcelonaPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcelonaPlayer.swift; sourceTree = "<group>"; };
 		C1FA2EE7274C27D2004FCE39 /* TradingCards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TradingCards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1FA2EEA274C27D2004FCE39 /* TradingCardsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradingCardsApp.swift; sourceTree = "<group>"; };
 		C1FA2EEC274C27D2004FCE39 /* MessiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessiView.swift; sourceTree = "<group>"; };
@@ -32,9 +34,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C162DFD0274C698A0027FD52 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C162DFD3274C71D60027FD52 /* BarcelonaPlayer.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		C1FA2EDE274C27D2004FCE39 = {
 			isa = PBXGroup;
 			children = (
+				C162DFD0274C698A0027FD52 /* Model */,
 				C1FA2EE9274C27D2004FCE39 /* TradingCards */,
 				C1FA2EE8274C27D2004FCE39 /* Products */,
 			);
@@ -137,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C162DFD4274C71D60027FD52 /* BarcelonaPlayer.swift in Sources */,
 				C1FA2EED274C27D2004FCE39 /* MessiView.swift in Sources */,
 				C1FA2EEB274C27D2004FCE39 /* TradingCardsApp.swift in Sources */,
 			);

@@ -27,20 +27,11 @@ struct DetailView: View {
                     .padding(.leading, 5)
                 HStack {
                     Spacer()
-                Text("Matches")
+                Text("Matches: 525")
                     Spacer()
-                Text("Goals")
+                Text("Goals: 475")
                     Spacer()
-                Text("Assists")
-                    Spacer()
-                }
-                HStack {
-                    Spacer()
-                    Text ("525")
-                    Spacer()
-                    Text ("475")
-                    Spacer()
-                    Text ("193")
+                Text("Assists: 193")
                     Spacer()
                 }
                 Text("Career Highlight")
@@ -59,8 +50,6 @@ Ruud van Nistelrooy opened the scoring on four minutes. Messi responded with his
 Oleguer was sent off just before the break for the homes side, and when Sergio Ramos scored with less than 20 minutes remaining, it looked like Real were going to have the double done over them.
 
 However, Messi's clinical strike from inside the box with only three minutes remaining secured his first treble for his club.
-
-
 """)
                     .padding(.leading, 5)
                     Spacer()
