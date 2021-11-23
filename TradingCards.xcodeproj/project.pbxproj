@@ -7,18 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C15F4157274D8A96002D9AFC /* PlayersListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15F4156274D8A96002D9AFC /* PlayersListView.swift */; };
 		C162DFD4274C71D60027FD52 /* BarcelonaPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C162DFD3274C71D60027FD52 /* BarcelonaPlayer.swift */; };
 		C1FA2EEB274C27D2004FCE39 /* TradingCardsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1FA2EEA274C27D2004FCE39 /* TradingCardsApp.swift */; };
-		C1FA2EED274C27D2004FCE39 /* MessiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1FA2EEC274C27D2004FCE39 /* MessiView.swift */; };
+		C1FA2EED274C27D2004FCE39 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1FA2EEC274C27D2004FCE39 /* DetailView.swift */; };
 		C1FA2EEF274C27D4004FCE39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1FA2EEE274C27D4004FCE39 /* Assets.xcassets */; };
 		C1FA2EF2274C27D4004FCE39 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1FA2EF1274C27D4004FCE39 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C15F4156274D8A96002D9AFC /* PlayersListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayersListView.swift; sourceTree = "<group>"; };
 		C162DFD3274C71D60027FD52 /* BarcelonaPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcelonaPlayer.swift; sourceTree = "<group>"; };
 		C1FA2EE7274C27D2004FCE39 /* TradingCards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TradingCards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1FA2EEA274C27D2004FCE39 /* TradingCardsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradingCardsApp.swift; sourceTree = "<group>"; };
-		C1FA2EEC274C27D2004FCE39 /* MessiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessiView.swift; sourceTree = "<group>"; };
+		C1FA2EEC274C27D2004FCE39 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		C1FA2EEE274C27D4004FCE39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C1FA2EF1274C27D4004FCE39 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -63,9 +65,10 @@
 			isa = PBXGroup;
 			children = (
 				C1FA2EEA274C27D2004FCE39 /* TradingCardsApp.swift */,
-				C1FA2EEC274C27D2004FCE39 /* MessiView.swift */,
+				C1FA2EEC274C27D2004FCE39 /* DetailView.swift */,
 				C1FA2EEE274C27D4004FCE39 /* Assets.xcassets */,
 				C1FA2EF0274C27D4004FCE39 /* Preview Content */,
+				C15F4156274D8A96002D9AFC /* PlayersListView.swift */,
 			);
 			path = TradingCards;
 			sourceTree = "<group>";
@@ -149,8 +152,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C162DFD4274C71D60027FD52 /* BarcelonaPlayer.swift in Sources */,
-				C1FA2EED274C27D2004FCE39 /* MessiView.swift in Sources */,
+				C1FA2EED274C27D2004FCE39 /* DetailView.swift in Sources */,
 				C1FA2EEB274C27D2004FCE39 /* TradingCardsApp.swift in Sources */,
+				C15F4157274D8A96002D9AFC /* PlayersListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
