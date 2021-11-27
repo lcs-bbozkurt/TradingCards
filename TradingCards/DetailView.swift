@@ -17,9 +17,9 @@ struct DetailView: View {
                     .resizable()
                     .scaledToFit()
                     .padding()
-                    .background(Color.red)
+                    Color("Maroon")
                     .padding()
-                    .background(Color.blue)
+                    Color("Blue")
             }
             VStack(alignment: .leading) {
                 Text(thisPlayer.titleOne)

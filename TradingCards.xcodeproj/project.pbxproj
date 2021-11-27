@@ -47,6 +47,7 @@
 		C1FA2EDE274C27D2004FCE39 = {
 			isa = PBXGroup;
 			children = (
+				C1FA2EEA274C27D2004FCE39 /* TradingCardsApp.swift */,
 				C162DFD0274C698A0027FD52 /* Model */,
 				C1FA2EE9274C27D2004FCE39 /* TradingCards */,
 				C1FA2EE8274C27D2004FCE39 /* Products */,
@@ -64,11 +65,10 @@
 		C1FA2EE9274C27D2004FCE39 /* TradingCards */ = {
 			isa = PBXGroup;
 			children = (
-				C1FA2EEA274C27D2004FCE39 /* TradingCardsApp.swift */,
 				C1FA2EEC274C27D2004FCE39 /* DetailView.swift */,
-				C1FA2EEE274C27D4004FCE39 /* Assets.xcassets */,
 				C1FA2EF0274C27D4004FCE39 /* Preview Content */,
-				C15F4156274D8A96002D9AFC /* PlayersListView.swift */,
+				C1FA2EEE274C27D4004FCE39 /* Assets.xcassets */,
+				C1FA2EF1274C27D4004FCE39 /* Preview Assets.xcassets */,
 			);
 			path = TradingCards;
 			sourceTree = "<group>";
@@ -76,7 +76,7 @@
 		C1FA2EF0274C27D4004FCE39 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				C1FA2EF1274C27D4004FCE39 /* Preview Assets.xcassets */,
+				C15F4156274D8A96002D9AFC /* PlayersListView.swift */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
