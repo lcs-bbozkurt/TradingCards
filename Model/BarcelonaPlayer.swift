@@ -46,7 +46,7 @@ Ronaldinho has scored some amazing goals in this career. Many of his greatest ca
 It may not be the most memorable goal or most important, but it showed the skills the Brazilian possessed at one time.
 """)
 ,
-    BarcelonaPlayer(name: "Xavier Hernández", imageName: "Xavi", titleOne: "Career Stats", matches: "Matches: 515", goals: "Goals: 61", assists: "Assists: 104", titleTwo: "Career Highlight", titleThree: "Decisive in Rome", careerHighlight: """
+    BarcelonaPlayer(name: "Xavier Hernández", imageName: "XAVI", titleOne: "Career Stats", matches: "Matches: 515", goals: "Goals: 61", assists: "Assists: 104", titleTwo: "Career Highlight", titleThree: "Decisive in Rome", careerHighlight: """
 Lionel Messi described it as the most satisfying goal of his career at this year's Ballon d'Or awards, per 101 Great Goals.
 
 A towering header from the shortest player on the pitch to finally end any hopes Manchester United had of winning the 2009 Champions League final.
@@ -60,9 +60,10 @@ Despite five defenders being in his area of the pitch none were within five yard
 The accuracy of the cross is breathtaking. Watch it again in the video above. Outstanding.
 """)
 ,
-    BarcelonaPlayer(name: "Carlos Puyol", imageName: "PUYOL", titleOne: "Career Stats", matches: "Matches: 595", goals: "Goals:19", assists: "Assists: 13", titleTwo: "Career Highlight", titleThree:"2010 World Cup Final", careerHighlight: """
-"For 120 minutes in the greatest spectacle in sport, Carles Puyol and Spain (and Barcelona) teammate Gerard Pique kept a clean sheet against World Cup final opponents Holland.
-                    
-It was a physical, hotly-contested affair, but another Barcelona player—Andres Iniesta—ensured Spain would win the trophy when he found the back of the net with four minutes left in extra time.
-""")
+BarcelonaPlayer(name: "Carlos Puyol", imageName: "PUYOL", titleOne: "Career Stats", matches: "Matches: 595", goals: "Goals:19", assists: "Assists: 13", titleTwo: "Career Highlight", titleThree: "2010 World Cup Final", careerHighlight: """
+                    For 120 minutes in the greatest spectacle in sport, Carles Puyol and Spain (and Barcelona) teammate Gerard Pique kept a clean sheet against World Cup final opponents Holland.
+                                        
+                    It was a physical, hotly-contested affair, but another Barcelona player—Andres Iniesta—ensured Spain would win the trophy when he found the back of the net with four minutes left in extra time.
+                    """)
+                     
 ]

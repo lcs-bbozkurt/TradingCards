@@ -13,13 +13,13 @@ struct DetailView: View {
         ScrollView {
         VStack {
             ZStack {
-                Image (thisPlayer.imageName)
+                Color("Maroon")
+                Color("Blue")
+                    .padding(25)
+                Image(thisPlayer.imageName)
                     .resizable()
                     .scaledToFit()
-                    .padding()
-                    Color("Maroon")
-                    .padding()
-                    Color("Blue")
+                    .padding(50)
             }
             VStack(alignment: .leading) {
                 Text(thisPlayer.titleOne)
