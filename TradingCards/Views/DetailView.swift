@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+// This is the page where I make my tradingcards layout. Here, I need to design a page, with ZStack, HStack, HStack, spacers and paddings. To make it applicable for each player, I need to  say that "let thisPlayer: BarcelonaPlayer", which allows me to make the view applicable for each player. 
 
 struct DetailView: View {
     let thisPlayer: BarcelonaPlayer
@@ -48,6 +49,7 @@ struct DetailView: View {
             }
         }
         .navigationTitle(thisPlayer.name)
+   
     }
 }
 struct DetailView_Previews: PreviewProvider {

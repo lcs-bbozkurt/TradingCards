@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+// This is the first page that shows up when app works. This page will include a title and a list that shows each player with their names and images. ForEach will alow us to loop each element in an order, the order that I have made in my model. And then NavigationLink will basically link my detailview to this page, for each player again. Finally, label allows me make the list understandable, by putting images and names.
 
 struct PlayersListView: View {
     var body: some View {
@@ -17,17 +18,19 @@ struct PlayersListView: View {
                 DetailView(thisPlayer: currentReport)},
                           
                 label: {
-                ZStack {
+                HStack {
                     Image(currentReport.imageName)
                         .resizable()
                         .scaledToFit()
+                .frame(width: 50, height: 50, alignment: .center)
+                        .clipped()
+                    Text(currentReport.name)
+                        .bold()
                 }
-                .frame(width: CGFloat(75.0))
-                Text(currentReport.name)
-             
-                })
-                    .frame(width: .greatestFiniteMagnitude, height: CGFloat(50.0))
+               })
+                
             }
+            
         }
         .navigationTitle("Barcelona Legends")
     }

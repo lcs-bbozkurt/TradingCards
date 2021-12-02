@@ -6,6 +6,7 @@
 //
 
 import Foundation
+// Here I have the necessary information for each player, to make a tradingcards. This helps me not to make five pages, instead I only need one detailview for the layout, and this view for stored propreties. 
 
 struct BarcelonaPlayer: Identifiable {
     let id = UUID()
